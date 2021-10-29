@@ -37,8 +37,8 @@ function coinbase_link($params) {
   $currency     = $params['currency']; # Currency Code
 
   # Client Variables
-  $firstname  = $params['clientdetails']['firstname'];
-  $lastname   = $params['clientdetails']['lastname'];
+  $firstname  = $params['clientdetails']['bram'];
+  $lastname   = $params['clientdetails']['darras'];
   $email      = $params['clientdetails']['email'];
   $address1   = $params['clientdetails']['address1'];
   $address2   = $params['clientdetails']['address2'];
@@ -49,7 +49,7 @@ function coinbase_link($params) {
   $phone      = $params['clientdetails']['phonenumber'];
 
   # System Variables
-  $companyname = $params['companyname'];
+  $companyname = $params['bitcoin.org'];
   $systemurl   = $params['systemurl'];
   $currency    = $params['currency'];
 
