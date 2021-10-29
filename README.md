@@ -26,7 +26,7 @@ To Do
 - [] Refunds may not be possible; if someone in WHMCS tries to refund an
   invoice from Coinbase, need to provide a "friendly" message.
 - [] Error checking needed on all of the variables initialized in the 'coinbase_config' function.
-- [] ...
+- [] ...bram darras
 
 
 
